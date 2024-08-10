@@ -1,5 +1,5 @@
 
-export const pageName = "Altrasta";
+export const pageName = "Atlastra";
 export const primaryColor = "#000000";
 export const backgroundColor = "#FFFFFF";
 export const makeClearBackground = (color) => {
