@@ -21,6 +21,7 @@ const Navbar = () => {
       }}
       textColor="black"
 
+      withSearch={false}
 
       withLogo={true}
       imageProps={{
@@ -46,7 +47,10 @@ const Navbar = () => {
       onRedirect={(path) => router.push(path)}
       onSearch={(value) => { }}
       stylesContentLink={{
-        backgroundColor: "#f7dc6f",
+        backgroundColor: "#E3C2E0",
+        justifyContent: "center",
+        alignContent: "center",
+        alignItems: "center",
       }}
     />
   );
