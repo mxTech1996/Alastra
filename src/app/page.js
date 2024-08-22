@@ -15,6 +15,7 @@ import { MdCabin } from 'react-icons/md';
 import { useRouter } from 'next/navigation';
 import Footer from '@/components/organisms/Footer';
 import Navbar from '@/components/organisms/Navbar';
+//Comment
 import { useInformation } from '@/store/useInformation';
 
 const { useToken } = theme;
@@ -33,7 +34,7 @@ export default function Home() {
       <Hero
         images={[dataSite.image_hero, dataSite.image_hero2]}
         withSubView
-        variant="carousel"
+        variant='carousel'
         stylesContainerImage={{
           height: '85vh',
         }}
